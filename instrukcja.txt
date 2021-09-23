@@ -1,0 +1,30 @@
+Gra w ¿ycie
+autor implementacji: Szymon Krawczyk
+
+Wymagany standard C++11
+
+
+
+Opis gry (pl.wikipedia.org/wiki/Mr%C3%B3wka_Langtona):
+
+  "W ka¿dym kroku wyró¿niona jest jedna komórka nazywana "mrówk¹", która oprócz koloru ma okreœlony tak¿e kierunek, w którym siê porusza. 
+
+        Mrówka zachowuje siê wed³ug nastêpuj¹cych zasad:
+        1. jeœli znajduje siê na polu bia³ym to obraca siê w lewo (o k¹t prosty), zmienia kolor pola na czarny i przechodzi na nastêpn¹ komórkê;
+        2. jeœli znajduje siê na polu czarnym to obraca siê w prawo (o k¹t prosty), zmienia kolor pola na bia³y i przechodzi na nastêpn¹ komórkê;
+        3. porusza siê na nieskoñczonej planszy podzielonej na kwadratowe komórki (pola) w dwóch mo¿liwych kolorach: czarnym i bia³ym."
+
+
+
+Ustawienia gry znajduj¹ siê w pliku gameData.ini 
+ razem z instrukcj¹ co i jak mo¿na ustawiæ (instrukcja po polsku)
+
+Mo¿na ustawiæ dowoln¹ liczbê mrówek.
+
+
+
+Wymagane pliki (powinny byæ do³¹czone automatycznie w kompilatorze):
+<iostream>    // Do obs³ugi gry na konsole oraz w obs³udze bledow
+<fstream>     // Do obs³ugi plików
+<vector>      // Do przechowania mrowek w klasie game
+<Windows.h>   // Do uœpienia w¹tku poprzez Sleep() po ka¿dej kalkulacji, dziêki temu mamy p³ynny obraz
